@@ -1,0 +1,118 @@
+body {
+    background: lightblue;
+    font-family: Raleway, Helvetica, sans-serif;
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#title {
+    color: #000000;
+    font-weight: bold;
+}
+
+#description {
+    font-family: Raleway;
+}
+
+#survey-form {
+    background: white;
+    padding-top: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+  }
+
+#name-label {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#email-label {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#number-label {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.fields {
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#role-label {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 5px 0;
+    vertical-align: top;
+    text-align: right;
+}
+
+#dropdown {
+    margin-top: 20px;
+}
+
+#rec-label {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+#radio {
+    display: inline-block;
+    text-align: left;
+    margin-left: -20px;
+    margin-top: -20px;
+    vertical-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+#like-label {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+#improve-label {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+#ideas {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#sug-label {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+#suggestions {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+}
