@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/b03dd4c230.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    
+    <header id="header">
+      <nav id="nav-bar">
+        <img src="https://images.unsplash.com/photo-1544216292-b5417607b70a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" id="header-img">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#footer" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="form-wrapper">
+      <h1>We use only the highest quality Arabica beans</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <label for="email">Subcribe to our newsletter to recieve our latest offerings!</label>
+        <input type="email" id="email" name="email" placeholder="your email">
+        <input type="submit" id="submit" value="Sign Up">
+      </form>
+    </section>
+    <section id="about">
+      <div class="about">
+        <i class="fas fa-globe-americas"></i>
+        <h4>We roast the highest quality coffees from smallholder farmers across the world.</h4>
+      </div>
+      <div class="about">
+        <i class="fas fa-handshake"></i>
+        <h4>All of our coffees are certified fair trade and organic.</h4>
+      </div>
+      <div class="about">
+        <i class="fas fa-tractor"></i>
+        <h4>A percentage of our profits go back to the farmers we work with.</h4>
+      </div>
+    </section>
+    <section id="video-wrapper">
+      <iframe id="video" title="vimeo-player" src="https://player.vimeo.com/video/51981847" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="products">
+      <div class="product">
+        <h3>Ethiopia Yirgacheffe</h3>
+        <h4>$15/lb</h4>
+        <p>This coffee has a smooth body with hints of grapefruite and banana.</p>
+        <button href="#">Add To Cart</button>
+      </div>
+      <div class="product">
+        <h3>China Yunnan</h3>
+        <h4>$6/lb</h4>
+        <p>This coffee has a heavy body with a nutty flavor.</p>
+        <button href="#">Add To Cart</button>
+      </div>
+      <div class="product">
+        <h3>Guatemala Huehuetenango</h3>
+        <h4>$15/lb</h4>
+        <p>This coffee has mild acidity, a smooth body and a pleasant chocolatey aftertaste.</p>
+        <button href="#">Add To Cart</button>
+      </div>
+    </section>
+    <section id="footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>Copyright 2019</p>
+    </section>
+        
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">      </script>
+  </body>
+</html>
